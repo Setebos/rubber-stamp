@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="fr" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="fr" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="fr"> <!--<![endif]-->
+
+<!-- Créé à partir du codepen "Rubber stamp effect" de Robert Blatchford -->
+<!-- https://codepen.io/555/pen/pdwvBP?page=1& -->
+
+<head>
+    <title>Tampon encreur</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Obtenez un effet tampon encreur sur le texte de votre choix.">
+    <meta name="author" content="Setebos">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tampon encreur</h1>
+    </div>
+    <div class="container stamp-form">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <form class="form-inline">
+                    <label for="text">Texte du tampon</label>
+                    <input id="stamp-text" type="text" name="text" class="form-control" value="Approuvé">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container result">
+        <div class="row">
+            <span class="stamp is-approved" id="stamp-result">Approuvé</span>
+        </div>
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+</html>
