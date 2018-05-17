@@ -30,5 +30,11 @@ input {
 	transform: rotate(-25deg);
 	border-radius: 0;
 	word-wrap:break-word;
-	max-width: 100%;
+	max-width: 95%;
+	margin-top: 8rem;
+}
+
+#convert-div {
+	width: 120%;
+	height: 30rem;
 }
